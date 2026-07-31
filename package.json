@@ -1,0 +1,23 @@
+{
+  "name": "card-battle-arena-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Online multiplayer server for the 6-class card battle game (Express + Socket.io).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "esbuild public/app.jsx --bundle --jsx=automatic --outfile=public/bundle.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
